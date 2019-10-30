@@ -5,3 +5,7 @@ exclude =
   __pycache__,
   manage.py,
   settings.py
+
+per-file-ignores =
+manage.py:E501,
+settings.py:E501 
